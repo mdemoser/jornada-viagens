@@ -3,6 +3,12 @@ Background
 Botoes
 Cores de texto */
 
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 :root{
 
     --background-primary-color: #ffffff;
@@ -14,6 +20,16 @@ Cores de texto */
 
     --text-primary-color: #222222;
     --text-secondary-color: #ffffff;
+
+
+    --titles-weight:700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
+
+
+    menu:500
+    footer:400
+    cards: 400 e 700
    
 }
 
@@ -25,3 +41,9 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
     box-sizing:border-box;
 }
 
+h1{
+    font-family: "Montserrat";
+    font-weight:var(--titles-weight);
+    color: var(--text-primary-color)
+
+}
