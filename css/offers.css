@@ -13,6 +13,8 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
@@ -20,11 +22,27 @@
   font-weight: var(--text-weight);
 }
 
+.card header h2 {
+  margin: 0;
+  text-align: center;
+}
+
 .card header h3 {
   font-size: 40px;
   font-weight: var(--text-weight);
+  margin: 8px 0 0;
 }
 
 .card header span {
   font-size: 32px;
+}
+
+.card.japao {
+  background-color: red;
+}
+
+@media screen and (min-widt: 1024px) {
+  .card {
+    width: 588px;
+  }
 }
