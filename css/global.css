@@ -57,6 +57,10 @@ body {
   font-family: "Montserrat";
 }
 
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--titles-weight);
@@ -83,8 +87,6 @@ body {
   text-decoration: none;
   line-height: 64px;
 }
+
 @media screen and (min-width: 768px) {
-  .section-title h2 {
-    font-size: 32px;
-  }
 }
