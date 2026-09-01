@@ -1,8 +1,3 @@
-/* 
-Background
-Botoes
-Cores de texto */
-
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
@@ -22,13 +17,9 @@ Cores de texto */
   --text-primary-color: #222222;
   --text-secondary-color: #ffffff;
 
-  --titles-weight: 700;
+  --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
-
-  /* menu:500
-    footer:400
-    cards: 400 e 700 */
 }
 
 body,
@@ -70,7 +61,7 @@ section.hero {
 }
 .section-title h2 {
   font-size: 28px;
-  font-weight: var(--titles-weight);
+  font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
 }
@@ -82,11 +73,23 @@ section.hero {
   border: none;
   margin: 16px auto 32px;
 }
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0 0 24px;
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
 .button {
   width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
-  font-weight: var(--titles-weight);
+  font-weight: var(--title-weight);
   font-size: 20px;
   background-color: var(--secondary-color);
   border-radius: 16px;

@@ -7,11 +7,6 @@
   width: 100%;
 }
 
-/* .payments .content-container {
-  display: flex;
-  justify-content: center;
-} */
-
 .payments .content-container .image-gallery .image.first {
   background: url(../img/gallery1-mobile.png) no-repeat;
   background-size: cover;
