@@ -25,10 +25,6 @@ Cores de texto */
   --titles-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
-
-  /* menu:500
-    footer:400
-    cards: 400 e 700 */
 }
 
 body,
@@ -60,7 +56,8 @@ section {
   width: 312px;
   margin: 0 auto 88px;
 }
-section.hero {
+section.hero,
+section.bottom-hero {
   width: 100%;
   margin: 0;
 }
