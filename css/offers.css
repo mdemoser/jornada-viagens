@@ -31,7 +31,7 @@
 
 .card header h3 {
   font-size: 40px;
-  font-weight: var(--text-weight);
+  font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 
