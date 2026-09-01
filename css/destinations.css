@@ -1,8 +1,3 @@
-.destinations {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .destination-items {
   display: flex;
   flex-direction: column;
@@ -28,7 +23,7 @@
   background-size: cover;
 }
 
-.destinations .item header h3 {
+.destinations .item header h4 {
   margin: 24px 0;
 }
 
